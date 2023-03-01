@@ -6,6 +6,8 @@ import paho.mqtt.client as mqtt
 import paho.mqtt.publish as publish
 import ssl
 from datetime import datetime
+
+# https://github.com/barleybobs/ecowater-softener
 from ecowater_softener import Ecowater
 
 print(datetime.now())
